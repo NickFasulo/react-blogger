@@ -22,10 +22,10 @@ const BlogItem = ({
           <div className="description">{article}</div>
         </div>
         <Button
-          className="ui primary button"
+          className="ui positive button"
           style={{ margin: '10px 15px' }}
           onClick={() => {
-            return console.log(`BlogID: ${objectId}`);;
+            return console.log(`Update: ${objectId}`);;
           }}
         >
           Update
